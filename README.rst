@@ -8,8 +8,8 @@ adversarial perturbations without doing gradient descent.
 
 This repository provides an efficient GPU impelementation of the Linear Region
 attack. If you find our attack useful or use this code, please cite
-"Scaling up the randomized gradient free adversarial attack reveals
-overestimation of robustness using established attacks".
+**"Scaling up the randomized gradient free adversarial attack reveals
+overestimation of robustness using established attacks"**.
 
 BibTeX
 ------
@@ -35,9 +35,9 @@ Before installing JAX, you need to install jaxlib with GPU support:
 
   python3 -m pip install --upgrade jax
 
-For details regarding the installation of JAX, please check the `JAX readme <https://github.com/google/jax#installation>`.
+For details regarding the installation of JAX, please check the `JAX readme <https://github.com/google/jax#installation>`_.
 
-We have successfully used Python 3.6, NumPy 1.16, JAX 0.1.21 and jaxlib 0.1.11.
+We have successfully used ``Python 3.6``, ``NumPy 1.16``, ``JAX 0.1.21`` and ``jaxlib 0.1.11``.
 
 Usage
 -----
