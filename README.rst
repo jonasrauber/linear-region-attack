@@ -7,16 +7,20 @@ exploits knowledge about the geometry of neural networks to find minimal
 adversarial perturbations without doing gradient descent.
 
 This repository provides an efficient GPU impelementation of the Linear Region
-attack. If you find our attack useful or use this code, please cite
-**"Scaling up the randomized gradient free adversarial attack reveals
-overestimation of robustness using established attacks"**.
+attack. If you find our attack useful or use this code, please cite our paper
+`Scaling up the randomized gradient free adversarial attack reveals
+overestimation of robustness using established attacks <https://arxiv.org/abs/1903.11359>`_.
 
 BibTeX
 ------
 
 .. code-block::
 
-  @article{todo,
+  @article{croce2019scaling,
+    title={Scaling up the randomized gradient-free adversarial attack reveals overestimation of robustness using established attacks},
+    author={Francesco Croce and Jonas Rauber and Matthias Hein},
+    journal={arXiv preprint arXiv:1903.11359},
+    year={2019},
   }
 
 Requirements
