@@ -56,7 +56,7 @@ def serial(*layers):
         rngs = random.split(rng, nlayers) if rng is not None else (None,) * nlayers
         additional_outputs = []
         for fun, param, rng in zip(apply_funs, params, rngs):
-            inputs, additional_output = fun(param, inputs, rng)
+            inputs, additional_output = fun(param, inputs, rng=rng)
             additional_outputs.append(additional_output)
         return inputs, additional_outputs
     return init_fun, apply_fun
@@ -76,7 +76,7 @@ def parallel(*layers):
         outputs = []
         additional_outputs = []
         for f, p, x, r in zip(apply_funs, params, inputs, rngs):
-            output, additional_output = f(p, x, r)
+            output, additional_output = f(p, x, rng=r)
             outputs.append(output)
             additional_outputs.append(additional_output)
         return outputs, additional_outputs
