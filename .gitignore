@@ -1,6 +1,5 @@
 cifar-10-python.tar.gz
 cifar-10-batches-py/
-weights/
 
 # Created by https://www.gitignore.io/api/python
 # Edit at https://www.gitignore.io/?templates=python
