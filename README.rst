@@ -17,10 +17,17 @@ BibTeX
 .. code-block::
 
   @article{croce2019scaling,
-    title={Scaling up the randomized gradient-free adversarial attack reveals overestimation of robustness using established attacks},
-    author={Francesco Croce and Jonas Rauber and Matthias Hein},
-    journal={arXiv preprint arXiv:1903.11359},
-    year={2019},
+    author="Croce, Francesco
+    and Rauber, Jonas
+    and Hein, Matthias",
+    title="Scaling up the Randomized Gradient-Free Adversarial Attack Reveals Overestimation of Robustness Using Established Attacks",
+    journal="International Journal of Computer Vision",
+    year="2019",
+    month="Oct",
+    day="03",
+    issn="1573-1405",
+    doi="10.1007/s11263-019-01213-0",
+    url="https://doi.org/10.1007/s11263-019-01213-0"
   }
 
 Requirements
